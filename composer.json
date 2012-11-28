@@ -1,0 +1,24 @@
+{
+    "name": "akrabat/akrabat-formatuktelephone",
+    "description": "A Zend Framework 2 module for formatting UK telephone numbers",
+    "license": "BSD-3-Clause",
+    "type": "library",
+    "keywords": ["zf2", "zendframework"],
+    "homepage": "https://github.com/akrabat/AkrabatFormatUkTelephone",
+    "authors": [
+        {
+            "name": "Rob Allen",
+            "email": "rob@akrabat.com",
+            "homepage": "http://akrabat.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
